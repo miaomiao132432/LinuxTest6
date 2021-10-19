@@ -4,8 +4,6 @@ import hashlib
 import base64
 import urllib.parse
 import io
-from pyzbar import pyzbar
-from PIL import Image
 import requests, json  # 导入依赖库
 
 
