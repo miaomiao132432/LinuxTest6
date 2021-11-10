@@ -6,7 +6,7 @@ import com.google.gson.*;
 public class Helloworld extends HttpServlet {
 
    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      response.setContentType("text/json;charset=UTF-8");
+      response.setContentType("application/json;charset=UTF-8");
       response.setCharacterEncoding("UTF-8");
       PrintWriter out = response.getWriter();
       Gson gson = new Gson();
