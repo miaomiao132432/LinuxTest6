@@ -16,7 +16,7 @@ public class GetNotePadList extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://116.62.123.4/linux_final";
    final static String USER = "miaomiao";
-   final static String PASS = "Mgh=1/2Mv2";
+   final static String PASS = "xxxxxxx";
    final static String SQL_QURERY_ALL_NOTEPAD = "SELECT * FROM t_notepad;";
 
    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
