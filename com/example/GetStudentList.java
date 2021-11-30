@@ -18,7 +18,7 @@ public class GetStudentList extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://116.62.123.4/linux_final";
    final static String USER = "miaomiao";
-   final static String PASS = "Mgh=1/2Mv2";
+   final static String PASS = "";
    final static String SQL_QURERY_ALL_STUDENT = "SELECT * FROM t_student;";
    Connection conn = null;
 

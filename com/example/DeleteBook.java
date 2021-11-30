@@ -16,7 +16,7 @@ public class DeleteBook extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://116.62.123.4/linux_final";
    final static String USER = "miaomiao";
-   final static String PASS = "Mgh=1/2Mv2";
+   final static String PASS = "";
    final static String SQL_DELETE_BOOK = "DELETE FROM t_book WHERE id=?";
 
    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
