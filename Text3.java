@@ -15,7 +15,7 @@ public class Text3 extends HttpServlet {
     static final String DB_URL = "jdbc:mysql://116.62.123.4/linux_final";
     static final String USER = "miaomiao";
     static final String PASS = "";
- 
+ //阿巴阿巴
    static Connection conn = null;
    static Jedis jedis = null;
    public void init() {
