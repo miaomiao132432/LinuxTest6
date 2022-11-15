@@ -20,8 +20,9 @@ public class App {
             String sql = "[sql]";
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()) {
-                int id = rs.getInt("id");
+                int number = rs.getInt("number");
                 String name = rs.getString("name");
+                [print your number and name]
             }
             rs.close();
             stmt.close();
