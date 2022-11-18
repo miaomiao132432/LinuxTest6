@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class App {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://[ip]/[database]";
+    static final String DB_URL = "jdbc:mysql://[ip]:[port]/[database]";
     static final String USER = "xxxx";
     static final String PASS = "xxxxxx";
 
